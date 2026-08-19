@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <link rel="stylesheet" href="../assets/css/navfoot.css">
+    <link rel="stylesheet" href="../assets/css/signin.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>Sign-in</title>
+</head>
+
+<body>
+
+
+
+    <!-- FORM INPUT SECTION -->
+
+    <section class="login-section">
+
+        <div class="login-container">
+
+
+            <h1>Log in to your Account </h1>
+            <p class="login-subtitle">Welcome back! Select log in method:</p>
+
+            <div class="branding">
+                <a href="../index.html">
+                    <img id="white-logo" src="../assets/images/Blueframe Logo White.png" alt="">
+                    <h2>Blueframe</h2>
+                </a>
+            </div>
+
+
+            <div class="social-login">
+
+                <button type="button" class="social-button google-button">
+                    <img src="../assets/images/Google Icon.png" alt="Google logo">
+                    <span>Google</span>
+                </button>
+
+                <button type="button" class="social-button apple-button">
+                    <img src="../assets/images/Apple Icon.png" alt="Apple logo">
+                    <span>Apple</span>
+                </button>
+
+            </div>
+
+            <div class="alternative">
+                <p>or</p>
+            </div>
+
+
+
+            <form class="login-form">
+
+                <!-- Email -->
+                <div class="login-form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="login-email" name="email" class="login-input" placeholder="Enter your email"
+                        required>
+                </div>
+
+                <!-- Password -->
+                <div class="login-form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="login-password" name="password" class="login-input"
+                        placeholder="Enter your password" required>
+                </div>
+
+                <!-- Remember Password + Forgot Password -->
+                <div class="login-options">
+
+                    <label class="remember-password">
+                        <input type="checkbox" id="remember" name="remember">
+                        <span>Remember password</span>
+                    </label>
+
+                    <a href="#" class="forgot-password">
+                        Forgot password?
+                    </a>
+
+                </div>
+
+                <!-- Login Button -->
+                <button type="submit" class="login-button">
+                    Log In
+                </button>
+                <p class="create-account">
+                    Don't have an account?
+                    <a href="#">Create one</a>
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <img id="bf-footer-wave" src="../assets/images/Wave4.png" alt="Footer wave decoration">
+
+    <footer class="bf-footer">
+        <div class="bf-footer-grid">
+
+            <!-- Social Icons -->
+            <div class="bf-footer-section bf-footer-social">
+                <p class="bf-footer-label">FOLLOW US</p>
+
+                <div class="bf-footer-social-icons">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../assets/images/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://linkedin.com/" target="_blank">
+                        <img src="../assets/images/linkedin.png" alt="LinkedIn">
+                    </a>
+
+                    <a href="https://slack.com/" target="_blank">
+                        <img src="../assets/images/slack.png" alt="Slack">
+                    </a>
+
+                    <a href="https://x.com/" target="_blank">
+                        <img src="../assets/images/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="bf-footer-section bf-footer-contact-email">
+                <p class="bf-footer-label">CONTACT US</p>
+                <p class="bf-footer-email">hello@blueframe.com</p>
+            </div>
+
+            <!-- Information Links -->
+            <div class="bf-footer-section bf-footer-information">
+                <p class="bf-footer-label">INFORMATION</p>
+
+                <div class="bf-footer-information-columns">
+
+                    <ul class="bf-footer-information-list">
+                        <li><a href="#">About Blueframe app</a></li>
+                        <li><a href="#">Get in Touch</a></li>
+                        <li><a href="#">Things We Like</a></li>
+                    </ul>
+
+                    <ul class="bf-footer-information-list">
+                        <li><a href="#">Unhovered / Active</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+
+                    <ul class="bf-footer-information-list">
+                        <li><a href="#">We are hiring!</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bf-footer-section bf-footer-form-section">
+
+                <p class="bf-footer-label">KEEP IN TOUCH</p>
+
+                <form class="bf-footer-form">
+
+                    <div class="bf-footer-form-grid">
+
+                        <div class="bf-footer-form-field bf-footer-name-field">
+                            <input type="text" placeholder="Your name">
+                            <img class="bf-footer-input-icon" src="../assets/images/user.png" alt="User Icon">
+                        </div>
+
+                        <div class="bf-footer-form-field bf-footer-email-field">
+                            <input type="email" placeholder="E-mail">
+                            <img class="bf-footer-input-icon" src="../assets/images/mail.png" alt="Email Icon">
+                        </div>
+
+                        <div class="bf-footer-form-field bf-footer-message-field">
+                            <textarea placeholder="Leave your message..."></textarea>
+                            <img class="bf-footer-message-icon" src="../assets/images/write.png" alt="Writing Icon">
+                        </div>
+
+                        <div class="bf-footer-submit">
+                            <button type="submit">SEND</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

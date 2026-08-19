@@ -1,0 +1,255 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(9, 132, 227);
+    overflow-x: hidden;
+}
+
+/* BRANDING */
+
+#white-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.branding {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.branding a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.branding h2 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* SOCIAL LOGIN */
+
+.login-subtitle{
+    margin-top: 15px;
+}
+
+.social-login {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.social-button {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.social-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.social-button:hover {
+    background-color: #FFEAA7;
+}
+
+
+/* DIVIDER */
+
+.alternative{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align:center;
+    color:white;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.alternative::before,
+.alternative::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.alternative p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* EMAIL LOGIN */
+
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-container h1 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-subtitle {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-form-group label {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.login-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+}
+
+.login-input:focus {
+    border-color: rgb(9, 132, 227);
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.remember-password {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+
+.remember-password input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+.forgot-password {
+    color: #55EFC4;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(253, 203, 110, 1);
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: #F3F3F3;
+}
+
+
+/* CREATE ACCOUNT */
+.create-account {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.create-account a {
+    color: #55EFC4;
+    text-decoration: none;
+    
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}   
+
+.footer{
+    
+    background-color: rgba(253, 203, 110, 1);
+}
