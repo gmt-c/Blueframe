@@ -68,6 +68,10 @@
     font-size: 20px;
     line-height: 1.7;
 }
+
+.start{
+    text-shadow: 0 4px 0 rgba(45, 52, 54, 1);
+}
 .start-highlight{
     position: relative;
     z-index: 1;
