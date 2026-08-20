@@ -46,7 +46,7 @@
     right: 0;
     bottom: -3px;
     height: 30px;
-    background: rgb(9, 132, 227);
+    background: rgb(9, 132, 227) !important;
     border-radius: 0.4em;
     z-index: -1;
 }
